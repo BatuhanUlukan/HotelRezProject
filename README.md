@@ -3,9 +3,9 @@ Using SQL Server as a database, N Tier Architecture architectures consisting of 
 
 This project represents a web feature operating under the holiday limitation. It is a project with three different owners, where various holiday options are listed on the site, users can access their personal accounts and information about the site, and the administrative user can perform CRUD operations included in the site.
 # Development Stages
-Layers were created and the overall structure of the project was determined.
-    Context class was defined for database operations and migration was performed.
-    Data access was made using DataAccesLayer and BusinessLayer Generic Interfaces.
+<li>Layers were created and the overall structure of the project was determined.<li>
+Context class was defined for database operations and migration was performed.
+    3.Data access was made using DataAccesLayer and BusinessLayer Generic Interfaces.
     Database operations were performed using the Repository Design Pattern approach.
     The accuracy of the entered data was checked using the Fluent Validation library.
     Performance improvement was achieved by using Partial Async and View Component structures.
